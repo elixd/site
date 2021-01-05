@@ -1,4 +1,12 @@
-## Welcome to GitHub Pages (123)
+## Posts
+
+<ul>
+  {% for post in site.posts %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+    </li>
+  {% endfor %}
+</ul>
 
 You can use the [editor on GitHub](https://github.com/elixd/site/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
