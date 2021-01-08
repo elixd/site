@@ -1,3 +1,17 @@
+---
+title: Home
+layout: default
+---
+
+This is my tech blog
+
+<form action="/search.html" method="get">
+  <label for="search-box">Search</label>
+  <input type="text" id="search-box" name="query">
+  <input type="submit" value="search">
+</form>
+
+
 ## Posts
 
 <h1>Latest Posts</h1>
